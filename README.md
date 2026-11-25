@@ -1,0 +1,46 @@
+# Readout
+
+Readout is a small menu bar app for macOS that shows the current state of your Mac at a glance: CPU, memory, disks (internal and external), network traffic, and power.
+
+This repository is used for distribution only. It contains no source code. Installers (DMG) are published under [Releases](https://github.com/linus-ground/readout/releases), and the website is served from [GitHub Pages](https://linus-ground.github.io/readout/).
+
+## Requirements
+
+- A Mac with Apple silicon (M1 or later)
+- macOS 26 Tahoe or later
+
+Intel-based Macs are not supported.
+
+## Installation
+
+1. Download `Readout-x.y.z.dmg` from the [latest release](https://github.com/linus-ground/readout/releases/latest).
+2. Open the disk image and drag Readout into the Applications folder.
+3. Launch Readout from the Applications folder. A gauge icon appears in the menu bar.
+
+## Usage
+
+- **Click** the menu bar icon to open a panel with CPU, memory, network, power, and every mounted disk with its free space.
+- **Right-click** for quick options: icon only or metrics in the menu bar, refresh interval, settings, and quit.
+- In **Settings** you can choose which metrics appear in the menu bar and in what order, the refresh interval (30 seconds to 15 minutes), network volumes, and opening at login.
+
+Readout is designed to stay out of the way. In icon-only mode (the default) it reads nothing in the background; values are read only while the panel is open. In metrics mode it refreshes the menu bar at the interval you choose. Disk capacity is never polled in the background, so sleeping external hard drives are not woken.
+
+Power is the whole-system power draw reported by macOS, averaged over about a minute.
+
+## Updates
+
+Automatic updates are planned for a later version. For now, download new versions from the [Releases](https://github.com/linus-ground/readout/releases) page. Settings are preserved when you replace the app.
+
+## License
+
+Readout is distributed under the [PolyForm Noncommercial License 1.0.0](LICENSE.md). It may be used and shared freely for noncommercial purposes, such as personal use, study, research, and use by noncommercial organizations. Commercial use is not permitted.
+
+Third-party notices are listed in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
+
+## Repository contents
+
+| Path | Description |
+|------|-------------|
+| `docs/index.html` | Website (GitHub Pages) |
+| `LICENSE.md` | License |
+| `THIRD-PARTY-NOTICES.md` | Third-party notices |
