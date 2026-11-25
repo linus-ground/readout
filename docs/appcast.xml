@@ -7,6 +7,16 @@
     <language>en</language>
     <!-- New releases are inserted directly below this line. -->
     <item>
+      <title>Readout 0.1.2</title>
+      <pubDate>Wed, 25 Nov 2026 13:57:38 GMT</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<ul><li>The menu bar is more compact in metrics mode: tighter spacing between metrics and smaller unit labels (%, W, K, M), so four metrics now take about 205 points instead of 228.</li><li>Network rates always fit in three digits: a value that rounds up to 1000K is now shown as 1.0M.</li></ul>]]></description>
+      <enclosure url="https://github.com/linus-ground/readout/releases/download/v0.1.2/Readout-0.1.2.dmg" length="1096608" type="application/octet-stream" sparkle:edSignature="sQmYtPyWi9GOZXHyqrjlJeJfPoiQDjHLlyDzdxlQdKVcSfat6dJYxuvLkoQMUIljliQPKFogcE/fL4RM8qkiDA=="/>
+    </item>
+    <item>
       <title>Readout 0.1.1</title>
       <pubDate>Wed, 25 Nov 2026 09:31:50 GMT</pubDate>
       <sparkle:version>2</sparkle:version>
