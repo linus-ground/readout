@@ -7,6 +7,16 @@
     <language>en</language>
     <!-- New releases are inserted directly below this line. -->
     <item>
+      <title>Readout 0.1.1</title>
+      <pubDate>Wed, 25 Nov 2026 09:31:50 GMT</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<ul><li>The panel fills in faster: CPU and network now appear in about 0.2 seconds (was about 0.5), and disks are read about five times faster.</li><li>Readout now also pauses its background readings while another user is logged in (fast user switching), in addition to sleep and display sleep.</li></ul>]]></description>
+      <enclosure url="https://github.com/linus-ground/readout/releases/download/v0.1.1/Readout-0.1.1.dmg" length="1095436" type="application/octet-stream" sparkle:edSignature="D+Low3eRjECiOvae7E3Ht5nGbbFKJyoHSo+H9krjPzOg4QVYL4Qs9/8SAMZESDl3K8kTimeeiMwBbpm0c1lZDA=="/>
+    </item>
+    <item>
       <title>Readout 0.1.0</title>
       <pubDate>Wed, 25 Nov 2026 08:49:15 GMT</pubDate>
       <sparkle:version>1</sparkle:version>
