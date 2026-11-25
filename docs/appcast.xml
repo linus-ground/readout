@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Readout update feed (Sparkle). Maintained by Distribution/release.sh; do not edit by hand. -->
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Readout</title>
+    <link>https://linus-ground.github.io/readout/appcast.xml</link>
+    <language>en</language>
+    <!-- New releases are inserted directly below this line. -->
+    <item>
+      <title>Readout 0.1.0</title>
+      <pubDate>Wed, 25 Nov 2026 08:49:15 GMT</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<ul><li>First release.</li><li>Menu bar icon with a panel showing CPU, memory, network, power, and every mounted disk with its free space.</li><li>Metrics mode: show CPU, memory, network, and power directly in the menu bar, in the order you choose.</li><li>Refresh interval from 30 seconds to 15 minutes; nothing is read in the background in icon-only mode.</li><li>Automatic update checks (once a day) with Sparkle; check manually from the right-click menu or Settings.</li><li>Korean and English (choose in Settings).</li></ul>]]></description>
+      <enclosure url="https://github.com/linus-ground/readout/releases/download/v0.1.0/Readout-0.1.0.dmg" length="1094568" type="application/octet-stream" sparkle:edSignature="fL8ZtJQ2YjpkI+jGhb0WfeLbhf12skGEtsSLib0Aw4dtCPrxVEBGajWSbtw4L1GHZW31HjwTDqt48SPbW+imAg=="/>
+    </item>
+  </channel>
+</rss>
