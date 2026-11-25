@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Readout — Mac status in your menu bar</title>
+<meta name="description" content="Readout is a small menu bar app that shows CPU, memory, disks, network, and power on your Mac.">
+<style>
+  :root { --bg:#fbfbfa; --fg:#1d1d1f; --muted:#6e6e73; --line:#e5e5e7; --accent:#0a66d8; --accent-fg:#fff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#161617; --fg:#f5f5f7; --muted:#a1a1a6; --line:#2c2c2e; --accent:#3d8bfd; --accent-fg:#fff; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font: 16px/1.65 -apple-system, BlinkMacSystemFont, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 72px 20px 56px; }
+  img.icon { width: 96px; height: 96px; }
+  h1 { font-size: 34px; margin: 12px 0 4px; letter-spacing: -0.02em; }
+  .lead { color: var(--muted); margin: 0 0 28px; }
+  .btn { display:inline-block; background:var(--accent); color:var(--accent-fg); text-decoration:none;
+         padding: 11px 22px; border-radius: 10px; font-weight: 600; }
+  .req { color: var(--muted); font-size: 14px; margin-top: 12px; }
+  h2 { font-size: 18px; margin: 44px 0 8px; padding-top: 20px; border-top: 1px solid var(--line); }
+  ol, ul { padding-left: 20px; margin: 0; }
+  li { margin: 4px 0; }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: 13px; margin-top: 48px; }
+</style>
+</head>
+<body>
+<main>
+  <img class="icon" src="icon.png" alt="">
+  <h1>Readout</h1>
+  <p class="lead">A small menu bar app that shows the current state of your Mac at a glance: CPU, memory, disks, network, and power.</p>
+
+  <a class="btn" href="https://github.com/linus-ground/readout/releases/latest">Download the latest version</a>
+  <p class="req">Requires a Mac with Apple silicon (M1 or later) and macOS 26 Tahoe or later.</p>
+
+  <h2>Installation</h2>
+  <ol>
+    <li>Download <code>Readout-x.y.z.dmg</code> from the release page and open it.</li>
+    <li>Drag Readout into the Applications folder.</li>
+    <li>Launch Readout from the Applications folder. A gauge icon appears in the menu bar.</li>
+  </ol>
+
+  <h2>Features</h2>
+  <ul>
+    <li>Click the menu bar icon for a panel with CPU, memory, network, power, and every mounted disk with its free space</li>
+    <li>Metrics mode shows the values you choose right in the menu bar, in the order you choose</li>
+    <li>Light on your Mac: in icon-only mode nothing is read in the background, and sleeping external hard drives are never woken</li>
+    <li>Korean and English</li>
+  </ul>
+
+  <h2>License</h2>
+  <p><a href="https://github.com/linus-ground/readout/blob/main/LICENSE.md">PolyForm Noncommercial License 1.0.0</a>.
+     Readout may be used and shared freely for noncommercial purposes. Commercial use is not permitted.</p>
+
+  <footer><a href="https://github.com/linus-ground/readout/releases">All releases</a></footer>
+</main>
+</body>
+</html>
