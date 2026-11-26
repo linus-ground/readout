@@ -26,6 +26,7 @@ Intel-based Macs are not supported.
 
 - **Click** the menu bar icon to open a panel with CPU, memory, network, power, and every mounted disk with its free space.
 - **Click a tile** (CPU, memory, network, or power) to see the top 10 or 20 apps or processes using it. Switch between apps (helper processes combined) and individual processes; processes owned by other users are marked **System** and are hidden unless you uncheck **Hide system**. Press ‹ or Esc to go back.
+- **Quit** one of your own apps or processes from a top list: hover over its row and click ✕, or right-click it, then confirm. Quit works like ⌘Q; Force Quit is in the right-click menu, and offered again if an app doesn't quit within 5 seconds. System processes can't be quit.
 - **Right-click** for quick options: icon only or metrics in the menu bar, refresh interval, check for updates, settings, and quit.
 - In **Settings** you can choose which metrics appear in the menu bar and in what order, the refresh interval (30 seconds to 15 minutes), network volumes, opening at login, and the language (Korean or English).
 
