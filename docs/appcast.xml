@@ -7,6 +7,16 @@
     <language>en</language>
     <!-- New releases are inserted directly below this line. -->
     <item>
+      <title>Readout 0.2.1</title>
+      <pubDate>Thu, 26 Nov 2026 03:32:38 GMT</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<ul><li>A &quot;Hide system&quot; checkbox below each top list, on by default, hides processes owned by other users. Uncheck it to include them. Your choice is remembered.</li><li>Fixed: with system processes included, the memory list now shows their real memory use (for example, WindowServer), matching Activity Monitor.</li><li>The power list always excludes system processes, because macOS does not report their energy use.</li></ul>]]></description>
+      <enclosure url="https://github.com/linus-ground/readout/releases/download/v0.2.1/Readout-0.2.1.dmg" length="1114368" type="application/octet-stream" sparkle:edSignature="8HbmnaRKe93/265bG+6fvV7UcHbivKrkag7gzhH302bsKz0pJl5o4NtsGCgSzJMY2/T9x55dJlEPJ0cWlqK9Bg=="/>
+    </item>
+    <item>
       <title>Readout 0.2.0</title>
       <pubDate>Thu, 26 Nov 2026 02:59:17 GMT</pubDate>
       <sparkle:version>4</sparkle:version>
