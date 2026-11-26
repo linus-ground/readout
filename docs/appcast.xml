@@ -7,6 +7,16 @@
     <language>en</language>
     <!-- New releases are inserted directly below this line. -->
     <item>
+      <title>Readout 0.3.0</title>
+      <pubDate>Thu, 26 Nov 2026 06:47:29 GMT</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<ul><li>Quit your own apps and processes from the top lists. Hover over a row and click ✕, or right-click it, then confirm in the box that opens below the row. Quit works like ⌘Q, so apps with unsaved work ask first. If an app hasn&#x27;t quit after 5 seconds, you can force quit it from the same box.</li><li>The right-click menu also offers Force Quit, Show in Finder, and Copy PID.</li><li>System processes can&#x27;t be quit, and neither can Readout itself or loginwindow (quitting it would log you out).</li><li>Fixed: in English, the memory list&#x27;s subtitle no longer gets cut off.</li></ul>]]></description>
+      <enclosure url="https://github.com/linus-ground/readout/releases/download/v0.3.0/Readout-0.3.0.dmg" length="1208020" type="application/octet-stream" sparkle:edSignature="JwUoJWMWF4eCsIm+u3slIz2lpZmzk5ghaCvgY9KGe+c8xMKu776RnIm8xXn+r11raKOSjlxDELFfVcvESiFsDg=="/>
+    </item>
+    <item>
       <title>Readout 0.2.1</title>
       <pubDate>Thu, 26 Nov 2026 03:32:38 GMT</pubDate>
       <sparkle:version>5</sparkle:version>
