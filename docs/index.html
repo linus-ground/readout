@@ -24,6 +24,12 @@
   ol, ul { padding-left: 20px; margin: 0; }
   li { margin: 4px 0; }
   a { color: var(--accent); }
+  figure { margin: 0; }
+  .shot img { display: block; width: 100%; height: auto; }
+  .hero { margin: 36px 0 0; }
+  .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 16px; }
+  figcaption { color: var(--muted); font-size: 14px; text-align: center; margin-top: 2px; }
+  @media (max-width: 520px) { .pair { grid-template-columns: 1fr; } }
   footer { color: var(--muted); font-size: 13px; margin-top: 48px; }
 </style>
 </head>
@@ -35,6 +41,14 @@
 
   <a class="btn" href="https://github.com/linus-ground/readout/releases/latest">Download the latest version</a>
   <p class="req">Requires a Mac with Apple silicon (M1 or later) and macOS 26 Tahoe or later.</p>
+
+  <figure class="shot hero">
+    <picture>
+      <source srcset="images/panel-dark.png" media="(prefers-color-scheme: dark)">
+      <img src="images/panel-light.png" width="640" height="448"
+           alt="The Readout panel open below the menu bar, showing CPU, memory, network, power, and disks. The menu bar shows CPU, memory, network, and power values.">
+    </picture>
+  </figure>
 
   <h2>Installation</h2>
   <ol>
@@ -55,6 +69,24 @@
     <li>Light on your Mac: in icon-only mode nothing is read in the background, and sleeping external hard drives are never woken</li>
     <li>Korean and English — choose the language in Settings</li>
   </ul>
+  <div class="pair">
+    <figure class="shot">
+      <picture>
+        <source srcset="images/top-cpu-dark.png" media="(prefers-color-scheme: dark)">
+        <img src="images/top-cpu-light.png" width="396" height="441" loading="lazy"
+             alt="Top 10 apps by CPU, with helper processes combined into each app.">
+      </picture>
+      <figcaption>Top apps by CPU</figcaption>
+    </figure>
+    <figure class="shot">
+      <picture>
+        <source srcset="images/top-memory-dark.png" media="(prefers-color-scheme: dark)">
+        <img src="images/top-memory-light.png" width="396" height="449" loading="lazy"
+             alt="Top 10 apps by memory with Hide system unchecked, so system processes such as WindowServer are listed and marked System.">
+      </picture>
+      <figcaption>Memory, with system processes shown</figcaption>
+    </figure>
+  </div>
 
   <h2>License</h2>
   <p><a href="https://github.com/linus-ground/readout/blob/main/LICENSE.md">PolyForm Noncommercial License 1.0.0</a>.
