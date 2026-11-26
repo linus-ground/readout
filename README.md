@@ -2,6 +2,11 @@
 
 Readout is a small menu bar app for macOS that shows the current state of your Mac at a glance: CPU, memory, disks (internal and external), network traffic, and power.
 
+<picture>
+  <source srcset="docs/images/panel-dark.png" media="(prefers-color-scheme: dark)">
+  <img src="docs/images/panel-light.png" width="640" alt="The Readout panel open below the menu bar">
+</picture>
+
 This repository is used for distribution only. It contains no source code. Installers (DMG) are published under [Releases](https://github.com/linus-ground/readout/releases), and the website and update feed are served from [GitHub Pages](https://linus-ground.github.io/readout/).
 
 ## Requirements
