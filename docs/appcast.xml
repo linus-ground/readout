@@ -7,6 +7,16 @@
     <language>en</language>
     <!-- New releases are inserted directly below this line. -->
     <item>
+      <title>Readout 0.2.0</title>
+      <pubDate>Thu, 26 Nov 2026 02:59:17 GMT</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<ul><li>Click the CPU, memory, network, or power tile to see the top 10 apps or processes using it (up to 20). Switch between apps, with helper processes combined into their app, and individual processes. Processes owned by other users are marked System. Press ‹ or Esc to go back.</li><li>The lists refresh every 3 seconds only while they are on screen, and stop when you go back or close the panel.</li><li>The power list ranks apps by CPU energy. macOS does not report energy for other users&#x27; processes, so they are not included there.</li></ul>]]></description>
+      <enclosure url="https://github.com/linus-ground/readout/releases/download/v0.2.0/Readout-0.2.0.dmg" length="1108332" type="application/octet-stream" sparkle:edSignature="c1hemQqjvqrouCkys5jTrKzCarrT8JGFR1/tbejQHYIlnDcgC7YHf+RD5Tx0yG1g7iP0SmDllSfhgI7zQzIsBg=="/>
+    </item>
+    <item>
       <title>Readout 0.1.2</title>
       <pubDate>Wed, 25 Nov 2026 13:57:38 GMT</pubDate>
       <sparkle:version>3</sparkle:version>
