@@ -20,12 +20,15 @@ Intel-based Macs are not supported.
 ## Usage
 
 - **Click** the menu bar icon to open a panel with CPU, memory, network, power, and every mounted disk with its free space.
+- **Click a tile** (CPU, memory, network, or power) to see the top 10 or 20 apps or processes using it. Switch between apps (helper processes combined) and individual processes; processes owned by other users are marked **System**. Press ‹ or Esc to go back.
 - **Right-click** for quick options: icon only or metrics in the menu bar, refresh interval, check for updates, settings, and quit.
 - In **Settings** you can choose which metrics appear in the menu bar and in what order, the refresh interval (30 seconds to 15 minutes), network volumes, opening at login, and the language (Korean or English).
 
 Readout is designed to stay out of the way. In icon-only mode (the default) it reads nothing in the background; values are read only while the panel is open. In metrics mode it refreshes the menu bar at the interval you choose. Disk capacity is never polled in the background, so sleeping external hard drives are not woken.
 
-Power is the whole-system power draw reported by macOS, averaged over about a minute.
+Power is the whole-system power draw reported by macOS, averaged over about a minute. In the power list, each app is ranked by its CPU energy; macOS does not report energy for processes owned by other users, so those are not listed there.
+
+The top lists are read only while a list is on screen, refreshing every 3 seconds, and stop as soon as you go back or close the panel.
 
 ## Updates
 
